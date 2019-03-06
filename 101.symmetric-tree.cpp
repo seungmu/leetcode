@@ -18,8 +18,6 @@ public:
           return identifier(root->left, root->right);
        else
           return true;
-
-        
     }
 
    bool identifier(TreeNode *lnode, TreeNode *rnode){
